@@ -28,7 +28,7 @@ namespace BookStore.Controllers
             purchase.Date = DateTime.Now;
             db.Purchases.Add(purchase);
             db.SaveChanges();
-            return "Спасибо," + purchase.Person + ", за покупку!";
+            return "Спасfffибо," + purchase.Person + ", за покупку!";
         }
     }
 }
